@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --color-button: #D49A6A;
+  --hover: #be763b; 
+  --text: #FFF;
+}
+
+body{
+  background-color: var(--color-buttons);
+  background: linear-gradient(#FFD1AA, #D49A6A, #804515, #552700);
+  height: 100vh;
+  width: 100vw;
+}
+
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;  
+}
+
+.login{
+  background-color: var(--text);
+  width: 90%;
+  height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+
+  transition: width 0.3s, height 0.3s ease;
+}
+
+.login a{
+  position: relative;
+  cursor: pointer
+}
+
+.ajuda{
+ position: absolute;
+  top: 20px;
+  right: -375px; /* Posiciona à direita do bloco */
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  color: #434343;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+
+.imagem{
+  display: block;
+  background: url(../assets/alex-3tnFKrbZZMs-unsplash.jpg) no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+}
+
+.formulario h1{
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.formulario p{
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+form input{
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  padding: 8px;
+  width: 100%;
+}
+
+form input:focus{
+  border-color: var(--color-buttons);
+}
+
+form button{
+  background-color: var(--color-button);
+  color: var(--color-secundary);
+  font-size: 1rem;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+form button:hover{
+  background-color: var(--hover);
+}
+
+form button:active{
+  transform: translateY(3px);
+}
+
+form a{
+  color: #434343;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+form a:hover{
+  text-decoration: underline;
+}
+
+.campo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.campo span{
+  padding-right: 8px;
+}
+
+.botao-rodape{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  
+
+}
+
+.botao-rodape a{
+ 
+  padding-left: 10px;
+  cursor: pointer;
+}

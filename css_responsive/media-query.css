@@ -1,0 +1,64 @@
+/* CELULARES MENORES */
+@media (min-width: 576px){
+
+  .login{
+    width: 60%;
+  }
+
+  .formulario p{
+  font-size: 1rem;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px){
+  body{
+  background: linear-gradient(#FFD1AA, #D49A6A, #804515, #552700);}
+
+
+
+  .login{
+    width: 90%;
+  }
+
+  .imagem{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-position: center;
+  }
+
+  .formulario{
+    float: right;
+    width: 70%;
+    height: 100%; 
+  }
+
+  .formulario p{
+  font-size: 1rem;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 992px){
+  body{
+    background: linear-gradient(#FFD1AA, #D49A6A, #804515, #552700); 
+  }
+
+  .login{
+    max-width: 900px;
+  }
+
+  .imagem{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-position: center;
+  }
+
+  .formulario{
+    float: right;
+    width: 50%;
+    height: 100%; 
+  }
+}
