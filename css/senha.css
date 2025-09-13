@@ -17,14 +17,14 @@ body{
 
 main{
   display: flex;
-  align-items: center;   /* centraliza verticalmente */
-  justify-content: center; /* centraliza horizontalmente */
-  height: 100vh;  /* ocupa a tela toda */
+  align-items: center;  
+  justify-content: center; 
+  height: 100vh;  
   background-color: #D49A6A;
 
 }
 
-#pop-up{
+form#pop-up {
     display: flex;
     background-color: #FFD1AA; 
     width: 50%;
@@ -37,6 +37,7 @@ main{
     align-items: center;
     flex-direction: column;
 }
+
 
 .text{
     font-size: 14px;
@@ -73,4 +74,46 @@ main{
 
 .back a{
     text-decoration: none;
+}
+
+/* --- 📌 RESPONSIVIDADE --- */
+
+/* Tablets */
+@media (max-width: 768px) {
+  form#pop-up {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .text h1 {
+    font-size: 20px;
+  }
+
+  .button button {
+    max-width: 180px;
+    font-size: 14px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+  .text h1 {
+    font-size: 18px;
+  }
+
+  .text p {
+    font-size: 13px;
+  }
+
+  .input input {
+    max-width: 100%;
+    font-size: 14px;
+    height: 40px;
+  }
+
+  .button button {
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+  }
 }
