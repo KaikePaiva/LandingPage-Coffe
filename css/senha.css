@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: #D49A6A;
+  background-color: #FFEDDD;
   max-width: 1920px;
   height: 100%;
 }
@@ -20,7 +20,7 @@ main{
   align-items: center;  
   justify-content: center; 
   height: 100vh;  
-  background-color: #D49A6A;
+  background-color: #FFEDDD;
 
 }
 
@@ -59,12 +59,16 @@ form#pop-up {
 
 .button{
     margin-top: 16px;
+    
 }
 
 .button button{
     height: 30px;
     width: 200px;
     cursor: pointer;
+    background-color: #D49A6A;
+    border: none;
+    border-radius: 4px;
 }
 
 
